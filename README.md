@@ -56,6 +56,7 @@ If you see dependency warnings when opening the patch on iPadOS:
 - Currently, installing external libraries on iPadOS/iOS is not supported through PlugData's interface
 
 **What works on iPadOS without additional libraries:**
+
 ✅ All envelope sequencing and dynatext features  
 ✅ Audio playback and sample manipulation  
 ✅ All preset functionality  
