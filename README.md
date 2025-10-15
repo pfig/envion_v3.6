@@ -41,6 +41,10 @@ Mandatory libraries: `ggee`, `audiolab` — for the 3D scope you can (optionally
 
 ---
 
+![Envion Quick Start](https://www.peamarte.it/env/html-guide/img/envion-quick-start.png)  
+**Envion Quick Start**
+
+
 ## Concept
 
 Instead of triggering samples on a timeline, Envion **writes trajectories on sound** through textual sequences of **triplets**  
