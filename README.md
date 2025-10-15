@@ -19,7 +19,7 @@ by **Emiliano Pennisi** — 2025
 **Envion** is an *envelope-first* ecosystem for **algorithmic and procedural composition** in Pure Data (Pd).  
 It redefines sampling as a **gesture-based process** — thousands of dynamic envelopes (*Dynatext triplets*) continuously sculpt micro-events and temporal shapes.
 
-Through its web-driven submodule **Net-Audio**, Envion fetches random sound atoms from the Internet (Internet Archive, Wikimedia Commons, Freesound) and transforms contingent data into **acousmatic gestures**, **algorithmic textures**, and **cybernetic listening ecologies**.
+Through its web-driven submodule **Net-Audio**, Envion fetches random sound atoms from the Internet (Internet Archive, Wikimedia Commons, Freesound) and transforms contingent data into **acousmatic gestures**, **algorithmic textures**, and **and emergent listening structures**.
 
 Envion is open-source, compatible with **PlugData** on macOS, Windows, and iPadOS, and released under the **MIT License (with Attribution)**.
 
