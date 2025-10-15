@@ -66,7 +66,7 @@ Each session produces unique textures — embracing randomness as compositional 
 
 ## Video Playlist
 
-[**Envion — YouTube Playlist**](https://youtu.be/JEuB3KBAxeg?si=lSOaNRazd1CgjL80)  
+[**Envion — YouTube Playlist**](https://www.youtube.com/watch?v=JEuB3KBAxeg&list=PLLITukQh1_l61lP6GMfa1Hz4Db7_wrTTT)  
 A curated selection of process demos, behind-the-scenes sessions, and live excerpts documenting Envion’s envelope-first philosophy.
 
 ---
