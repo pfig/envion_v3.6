@@ -79,18 +79,16 @@ See the [LICENSE](LICENSE) file for details.
 ## Links
 
 - 🌐 **Website:** [peamarte.it/env/envion_v3.6.html](https://www.peamarte.it/env/envion_v3.6.html)  
+- **Portfolio:** [http://www.emilianopennisi.it](http://www.emilianopennisi.it)  
 - **YouTube Series:** [Envion — Official Playlist](https://www.youtube.com/watch?v=gA-pdHQwibA&list=PLLITukQh1_l61lP6GMfa1Hz4Db7_wrTTT)  
 - **Community:** [r/musiconcrete](https://www.reddit.com/r/musiconcrete)  
 - ✉️ **Contact:** [metrostation@gmail.com](mailto:metrostation@gmail.com)
 
 ---
 
-<<<<<<< Updated upstream
----
+*Built in Pure Data / PlugData (2024–2025)*  
+*© Emiliano Pennisi*
+
 <!--UPDATE_TS_START-->
 _Last update: 2025-10-15 05:38 CEST_
 <!--UPDATE_TS_END-->
-=======
-*Built in Pure Data / PlugData (2024–2025)*  
-*© [Emiliano Pennisi](http://www.emilianopennisi.it)*
->>>>>>> Stashed changes
