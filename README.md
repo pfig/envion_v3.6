@@ -57,13 +57,14 @@ If you see dependency warnings when opening the patch on iPadOS:
 
 **What works on iPadOS without additional libraries:**
 
-✅ All envelope sequencing and dynatext features  
+✅ All envelope seq and dynatext features  
 ✅ Audio playback and sample manipulation  
 ✅ All preset functionality  
 ✅ Recording and real-time processing  
 ✅ Manual and automatic triggering  
 
 **What requires optional libraries (desktop only):**
+
 
 ⚠️ 3D scope visualization (requires `simplex`)  
 ⚠️ Some advanced audio processing features (requires `audiolab`, `ceammc`, `ggee`)
