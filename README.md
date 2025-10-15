@@ -92,5 +92,5 @@ _Last update: 2025-10-15 05:35 CEST_
 <!--UPDATE_TS_END-->
 =======
 *Built in Pure Data / PlugData (2024–2025)*  
-*© Emiliano Pennisi — Palermo, Italy*
+*© [Emiliano Pennisi](http://www.emilianopennisi.it)*
 >>>>>>> Stashed changes
