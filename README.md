@@ -4,7 +4,7 @@
 Algorithmic Dynatext Envelope Sequencer in **Pure Data (PlugData & iPadOS)**  
 by **Emiliano Pennisi** — 2025
 
-
+(https://www.peamarte.it/env/html-guide/img/concept-envion.png)  
 
 ---
 
