@@ -1,4 +1,5 @@
-<img src="https://www.peamarte.it/env/html-guide/img/logo_circle_60x60_readme.png" width="100" height="100" style="vertical-align: middle;">
+<img src="https://www.peamarte.it/env/html-guide/img/logo_circle_60x60_readme.png" width="100" height="100" style="vertical-align: middle; margin-bottom: -5px;">
+
 # Envion  
 Algorithmic Dynatext Envelope Sequencer in **Pure Data (PlugData & iPadOS)**  
 by **Emiliano Pennisi** — 2025
@@ -93,5 +94,9 @@ See the [LICENSE](LICENSE) file for details.
 *© Emiliano Pennisi*
 
 <!--UPDATE_TS_START-->
+<<<<<<< Updated upstream
 _Last update: 2025-10-15 05:53 CEST_
+=======
+_Last update: 2025-10-15 05:51 CEST_
+>>>>>>> Stashed changes
 <!--UPDATE_TS_END-->
