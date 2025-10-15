@@ -1,6 +1,7 @@
 # Envion  
-Algorithmic Dynatext Envelope Sequencer in Pure Data (Pd)  
-by **Emiliano Pennisi (Avenir)** — 2025  
+Algorithmic Dynatext Envelope Sequencer in **Pure Data (PlugData & iPadOS)**  
+by **Emiliano Pennisi** — 2025
+
 
 ---
 
