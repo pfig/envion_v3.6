@@ -30,7 +30,7 @@ Envion is open-source, compatible with **PlugData** on macOS, Windows, and iPadO
 1. **Install [PlugData](https://plugdata.org/)** — includes core externals (`cyclone`, `else`).  
 2. Open the main patch:  
    ```bash
-   Envion_v3.9_Plugdata.pd
+   Envion_v4.5_Plugdata.pd
    ```
 3. Activate **DSP**, load any sample, or pick a built-in preset (bottom-right).  
 4. Use the checkboxes **Random List** / **Random Terna** for procedural randomization.  
