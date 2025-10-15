@@ -49,6 +49,14 @@ Optional libraries (ggee, ceammc, simplex, audiolab) add extra features but are 
 If dependency warnings appear, they refer to optional libraries.  
 The patch remains operational without them, except for features such as 3D scope visualization.
 
+### Net-Audio module on iPadOS/iOS
+
+**Important:**  
+The Net-Audio module is **not functional on iPadOS** as of this release.  
+Due to current limitations in PlugData for iPadOS/iOS, URL-based loading and fetching are not supported.  
+As a result, the Net-Audio module will remain inactive in the iPadOS version until the necessary functionality is implemented upstream.  
+A related issue has been opened in the PlugData repository; updates will be provided when support is available.
+
 For detailed instructions and troubleshooting, refer to [IPAD_GUIDE.md](IPAD_GUIDE.md).
 
 ---
@@ -61,7 +69,7 @@ Thousands of these triplets, stored in the `/data` folder, create a reservoir of
 
 ---
 
-## Net-Audio Module
+## Net-Audio Module (desktop only)
 
 Net-Audio extends Envion by automatically fetching sonic material from public archives.  
 Python scripts build `.txt` lists of direct URLs, which Envion reads and articulates through its envelope engine.
@@ -98,8 +106,13 @@ Built in Pure Data / PlugData (2024–2025)
 © Emiliano Pennisi
 
 <!--UPDATE_TS_START-->
+<<<<<<< Updated upstream
 _Last update: 2025-10-15 06:41 CEST_
 <!--UPDATE_TS_END-->
 =======
+<!--UPDATE_TS_END-->
+>>>>>>> Stashed changes
+=======
+_Last update: 2025-10-15 06:37 CEST_
 <!--UPDATE_TS_END-->
 >>>>>>> Stashed changes
