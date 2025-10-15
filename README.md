@@ -94,9 +94,5 @@ See the [LICENSE](LICENSE) file for details.
 *© Emiliano Pennisi*
 
 <!--UPDATE_TS_START-->
-<<<<<<< Updated upstream
-_Last update: 2025-10-15 05:53 CEST_
-=======
-_Last update: 2025-10-15 05:51 CEST_
->>>>>>> Stashed changes
+_Last update: 2025-10-15 05:54 CEST_
 <!--UPDATE_TS_END-->
