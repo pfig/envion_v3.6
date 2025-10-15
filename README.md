@@ -64,6 +64,7 @@ If you see dependency warnings when opening the patch on iPadOS:
 ✅ Manual and automatic triggering  
 
 **What requires optional libraries (desktop only):**
+
 ⚠️ 3D scope visualization (requires `simplex`)  
 ⚠️ Some advanced audio processing features (requires `audiolab`, `ceammc`, `ggee`)
 
