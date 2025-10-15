@@ -45,6 +45,30 @@ Mandatory libraries: `ggee`, `audiolab` — for the 3D scope you can (optionally
 **Envion Quick Start**
 
 
+### 📱 **PlugData on iPadOS/iOS**
+
+The core functionality of Envion works out-of-the-box on PlugData for iPadOS/iOS because **cyclone** and **else** libraries are built-in.
+
+If you see dependency warnings when opening the patch on iPadOS:
+- These warnings refer to **optional libraries** (ggee, ceammc, simplex, audiolab)
+- **You can safely ignore these warnings** — the patch will work without them
+- The optional libraries add extra features like 3D scope visualization, but are not required for core functionality
+- Currently, installing external libraries on iPadOS/iOS is not supported through PlugData's interface
+
+**What works on iPadOS without additional libraries:**
+✅ All envelope sequencing and dynatext features  
+✅ Audio playback and sample manipulation  
+✅ All preset functionality  
+✅ Recording and real-time processing  
+✅ Manual and automatic triggering  
+
+**What requires optional libraries (desktop only):**
+⚠️ 3D scope visualization (requires `simplex`)  
+⚠️ Some advanced audio processing features (requires `audiolab`, `ceammc`, `ggee`)
+
+📖 **[Read the full iPadOS/iOS guide](IPAD_GUIDE.md)** for detailed instructions and troubleshooting.
+
+
 ## Concept
 
 Instead of triggering samples on a timeline, Envion **writes trajectories on sound** through textual sequences of **triplets**  
