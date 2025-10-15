@@ -68,6 +68,11 @@ If you see dependency warnings when opening the patch on iPadOS:
 
 📖 **[Read the full iPadOS/iOS guide](IPAD_GUIDE.md)** for detailed instructions and troubleshooting.
 
+### What doesn’t work (yet) on iPadOS
+
+🧩 **Net-Audio** is currently **not functional** on iPadOS.  
+A related issue has been opened on the **PlugData repository**, which will eventually allow URL-based loading and fetching functions to work correctly once resolved.  
+Until then, the Net-Audio module will remain inactive in the iPadOS version.
 
 ## Concept
 
