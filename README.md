@@ -25,19 +25,19 @@ Envion is open-source, compatible with **PlugData** on macOS, Windows, and iPadO
 
 ---
 
-## Quick Start
+> ℹ️ **Envion quick setup**
 
-1. **Install [PlugData](https://plugdata.org/)** — includes core externals (`cyclone`, `else`).  
-2. Open the main patch:  
-   ```bash
-   Envion_v4.5_Plugdata.pd
-   ```
-3. Activate **DSP**, load any sample, or pick a built-in preset (bottom-right).  
-4. Use the checkboxes **Random List** / **Random Terna** for procedural randomization.  
-5. On iPadOS, Envion works out-of-the-box — optional libs (`ggee`, `simplex`, `ceammc`) add visuals but are not required.
+With **PlugData**, `cyclone` and `else` are already included.  
+Mandatory libraries: `ggee`, `audiolab` — for the 3D scope you can (optionally) add: `simplex`.
 
-**Complete setup & iPad guide:**  
-[Envion Website › Documentation](https://www.peamarte.it/env/envion_v3.6.html)
+- `cyclone` — included in PlugData  
+- `else` — included in PlugData  
+- `ggee`  
+- `ceammc`  
+- `simplex` — optionally  
+- `audiolab`  
+
+**Open:** `Envion_v4.5_Plugdata.pd` → play presets (bottom-right), tweak behavior, load new samples.
 
 ---
 
