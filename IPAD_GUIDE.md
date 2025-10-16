@@ -10,6 +10,7 @@
 ## Understanding the Dependency Warnings
 
 When you open Envion on PlugData for iPadOS, you may see warning messages about missing dependencies. **Don't worry — this is completely normal and expected!**
+
 ## iPadOS Sandbox Notes
 
 On iPadOS, PlugData runs inside its own **sandbox**.  
@@ -31,7 +32,6 @@ can't open file ...
 
 ---
 
-
 ### What the warnings mean:
 
 The warnings refer to these external libraries:
@@ -44,6 +44,22 @@ These libraries are:
 1. **Optional** — they add extra features but are not required
 2. **Desktop-only** — they cannot be installed on iPadOS/iOS through PlugData
 3. **Safe to ignore** — you can dismiss these warnings and use Envion normally
+
+## Known iPadOS Limitations (Important)
+
+There are a couple of notable features/modules that are not functional on iPadOS at this time due to limitations in PlugData or because they depend on desktop-only libraries.
+
+### Net-Audio module on iPadOS/iOS
+Important:
+- The Net-Audio module is not functional on iPadOS as of this release.
+- Due to current limitations in PlugData for iPadOS/iOS, URL-based loading and fetching are not supported. As a result, the Net-Audio module will remain inactive in the iPadOS version until the necessary functionality is implemented upstream.
+- A related issue has been opened in the PlugData repository; updates will be provided when support is available.
+- For detailed instructions and troubleshooting, refer to the PlugData documentation and the PlugData repository issue tracker for updates and workarounds.
+
+### Dynagran module
+- The new Dynagran module is not yet compatible with iPadOS.
+- Dynagran depends on features and/or optional libraries that are not available in the current PlugData iPadOS runtime, so the module will be inactive on iPad for now.
+- Use the Dynagran module on desktop systems where the required libraries and features are available, and watch the repository or PlugData issue tracker for future compatibility updates.
 
 ## What Works on iPadOS (Without Additional Libraries)
 
@@ -123,6 +139,11 @@ Once transferred, open the `.pd` files directly in PlugData.
 - The `/data` folder contains all the envelope preset files (dynatext)
 - The `/audio` folder contains sample audio files
 
+### Problem: Net-Audio or Dynagran module shows no activity
+**Solution:**
+- Net-Audio: This module is not supported on iPadOS at this time due to URL-based loading limitations in PlugData. See the "Net-Audio module" section above for details and follow the PlugData issue tracker for updates.
+- Dynagran: Not compatible with iPadOS yet. Use desktop for Dynagran features until iPadOS support is added.
+
 ## Feature Comparison: Desktop vs iPadOS
 
 | Feature | iPadOS | Desktop with Optional Libs |
@@ -135,6 +156,8 @@ Once transferred, open the `.pd` files directly in PlugData.
 | Manual/Auto triggering | ✅ | ✅ |
 | 3D scope visualization | ❌ | ✅ |
 | Advanced audio features | Partial | Full |
+| Net-Audio module | ❌ | ✅ (desktop) |
+| Dynagran module | ❌ | ✅ (desktop) |
 
 ## Additional Resources
 
@@ -142,6 +165,7 @@ Once transferred, open the `.pd` files directly in PlugData.
 - **HTML Guide:** [https://www.peamarte.it/env/envion_v3.6.html](https://www.peamarte.it/env/envion_v3.6.html)
 - **Video Tutorials:** See README for YouTube links
 - **PlugData Website:** https://plugdata.org
+- **PlugData Documentation & Issue Tracker:** Check the PlugData repository and docs for updates on Net-Audio / URL support and other iPadOS runtime features.
 
 ## Still Have Questions?
 
@@ -152,4 +176,4 @@ If you encounter issues not covered in this guide:
 
 ---
 
-**Remember:** The dependency warnings are not errors — they're informational messages about optional features. Envion's core functionality is fully operational on iPadOS without any additional library installations! 🎵
+**Remember:** The dependency warnings are not errors — they're informational messages about optional features. Envion's core functionality is fully operational on iPadOS without any additional libraries. If a module isn't working (for example Net-Audio or Dynagran), it's due to platform/runtime limitations rather than a problem with the patch itself; please check the PlugData issue tracker for progress on these features.
