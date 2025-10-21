@@ -49,6 +49,64 @@
 BEST QUERY internet_archive_fine_tuning.py
 # ───────────────────────────────────────────────────────────────
 
+
+SFX music concrete / gesti
+
+cd "/Users/emiliano/Documents/PureData/Envion-Algo-Score" && \
+python3 "./python__queries/internet_archive_fine_tuning.py" \
+  --q "(gesture OR handling OR object manipulation OR strike OR scrape OR movement OR contact sound OR material gesture OR friction)" \
+  --include-subjects "sound effects,foley,field recording,experimental,performance" \
+  --exclude-collections "librivoxaudio,audio_bookspoetry,oldtimeradio,radioprograms,communitypodcast" \
+  --exclude "podcast,voice,speech,interview,spoken,sermon,radio" \
+  --max-dur 3.8 \
+  --count 8 \
+  --rows 2800 \
+  --out-dir "./netsound" \
+  --history "./netsound/netsound_history.txt" \
+  --dedupe \
+  --scope sitewide
+
+
+
+MICRO
+
+cd "/Users/emiliano/Documents/PureData/Envion-Algo-Score" && \
+python3 "./python__queries/internet_archive_fine_tuning.py" \
+  --q "(tiny OR short OR click OR tick OR tap OR micro OR impulse OR percussive OR contact OR scrape OR flick OR blip)" \
+  --include-subjects "sound effects,foley,field recording,experimental" \
+  --exclude-collections "librivoxaudio,audio_bookspoetry,oldtimeradio,radioprograms,communitypodcast" \
+  --exclude "podcast,voice,spoken,speech,interview,sermon" \
+  --max-dur 3.5 \
+  --count 12 \
+  --rows 2500 \
+  --out-dir "./netsound" \
+  --history "./netsound/netsound_history.txt" \
+  --dedupe \
+  --scope sitewide
+
+
+Pornos
+
+# MICROTACTILE / SHORTER <1.2s
+cd "/Users/emiliano/Documents/PureData/Envion-Algo-Score" && \
+python3 "/Users/emiliano/Documents/PureData/Envion-Algo-Score/python__queries/internet_archive_fine_tuning.py" \
+  --q "(contact mic OR piezo OR fingertip OR surface recording OR skin friction OR cloth rub OR tactile OR micro resonance OR pressure movement OR scrape OR rub OR stroking)" \
+  --include-subjects "field recording,contact microphone,sound effects,ambience,experimental" \
+  --exclude-collections "librivoxaudio,audio_bookspoetry,oldtimeradio,radioprograms,communitypodcast" \
+  --exclude "podcast,sermon,radio,chapter,novel,audiobook,voice,spoken,interview" \
+  --max-dur 1.2 \
+  --count 8 \
+  --rows 1500 \
+  --out-dir "/Users/emiliano/Documents/PureData/Envion-Algo-Score/netsound" \
+  --history "/Users/emiliano/Documents/PureData/Envion-Algo-Score/netsound/netsound_history.txt" \
+  --dedupe \
+  --scope sitewide
+
+
+
+
+
+
 # Electric snap / small electricity sounds
 
 cd "/Users/emiliano/Documents/PureData/Envion-Algo-Score" && \

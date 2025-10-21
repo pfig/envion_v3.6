@@ -1,0 +1,8 @@
+https://archive.org/download/slack_sfx/animal_stick.mp3;
+https://archive.org/download/slack_sfx/b2.mp3;
+https://archive.org/download/slack_sfx/been_tree.mp3;
+https://archive.org/download/slack_sfx/complete_quest_requirement.mp3;
+https://archive.org/download/slack_sfx/confirm_delivery.mp3;
+https://archive.org/download/slack_sfx/flitterbug.mp3;
+https://archive.org/download/slack_sfx/here_you_go_lighter.mp3;
+https://archive.org/download/slack_sfx/hi_flowers_hit.mp3;
