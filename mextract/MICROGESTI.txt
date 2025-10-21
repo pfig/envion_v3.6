@@ -1,0 +1,44 @@
+MICROGESTI
+
+
+internet_archive_micro.py
+  |
+  ├── fetch metadata (API)
+  ├── pick candidate files
+  ├── download (curl)
+  ├── slice → detect → microloop
+  ├── export micros
+  └── output .wav list usable by sfload
+
+
+python3 /Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/ia_microextract.py \
+  --fetch \
+  --keywords click "field recording" "metal clang" strike \
+  --files-per-run 3 \
+  --slices-per-file 20 \
+  --out "/Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/micro" \
+  --persist-counter
+
+
+
+FREESOUND
+
+python3 /Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/ia_microextract_freesound.py \
+  --fetch \
+  --keywords click "field recording" "metal clang" strike \
+  --files-per-run 8 \
+  --slices-per-file 20 \
+  --out "/Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/micro" \
+  --persist-counter
+
+
+
+
+
+
+
+
+
+
+
+

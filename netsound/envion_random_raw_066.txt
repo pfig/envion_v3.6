@@ -1,0 +1,8 @@
+https://archive.org/download/slack_sfx/item_pickup.mp3;
+https://archive.org/download/slack_sfx/knock_brush.mp3;
+https://archive.org/download/slack_sfx/save_and_checkout.mp3;
+https://archive.org/download/mindcrack_beatpack_001/085bpm___dancehall___simplicity___isrsrbrr_64kb.mp3;
+https://archive.org/download/mindcrack_beatpack_001/085bpm___dancehall___simplicity___isrsrbrr_vbr.mp3;
+https://archive.org/download/mindcrack_beatpack_001/090bpm___bazrap-chillermix-01___srsrsrr_64kb.mp3;
+https://archive.org/download/mindcrack_beatpack_001/090bpm___bazrap-chillermix-01___srsrsrr_vbr.mp3;
+https://archive.org/download/mindcrack_beatpack_001/090bpm___gehtdoch___instrumental___isrsrsrr_64kb.mp3;
