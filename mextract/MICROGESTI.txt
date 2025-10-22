@@ -14,10 +14,11 @@ internet_archive_micro.py
 python3 /Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/ia_microextract.py \
   --fetch \
   --keywords click "field recording" "metal clang" strike \
-  --files-per-run 3 \
-  --slices-per-file 20 \
+  --files-per-run 8 \
+  --slices-per-file 1 \
   --out "/Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/micro" \
   --persist-counter
+
 
 
 
