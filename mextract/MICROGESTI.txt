@@ -26,7 +26,7 @@ FREESOUND
 
 python3 /Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/ia_microextract_freesound.py \
   --fetch \
-  --keywords click "field recording" "metal clang" strike \
+  --keywords click "field recording" "ambient" ambience \
   --files-per-run 8 \
   --slices-per-file 20 \
   --out "/Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/micro" \

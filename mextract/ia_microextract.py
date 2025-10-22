@@ -173,7 +173,8 @@ def main():
                 current_index += 1
                 files_found += 1
                 new_history.add(identifier)
-                if files_found >= args.files_per-run:
+               if files_found >= args.files_per_run:
+
                     break
 
     save_history(args.out, new_history)
