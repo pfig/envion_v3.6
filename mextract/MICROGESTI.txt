@@ -35,11 +35,11 @@ python3 /Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/ia_microex
 
 IMPRINTAPE-AMBIENCE-QUERY
 
-python3 /Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/ia_microextract_freesound.py \
+python3 /Users/emiliano/Desktop/ia_microextract_freesound.py \
   --fetch \
-  --keywords "field recording" ambience ambient "room tone" "tiny ambience" "duration:[0 TO 4]" \
+  --keywords click "field recording" "metal clang" strike \
   --files-per-run 8 \
-  --slices-per-file 1 \
+  --slices-per-file 20 \
   --out "/Users/emiliano/Documents/PureData/Envion-Algo-Score/mextract/micro" \
   --persist-counter
 
