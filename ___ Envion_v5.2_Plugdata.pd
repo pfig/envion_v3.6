@@ -142,12 +142,12 @@
 #X obj 1914 815 s \$0-label;
 #X obj 2097 542 r \$0-label;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufL 45999 float 2;
-#X coords 0 1 45999 -1 100 80 1 0 0;
+#X array samplebufL 55988 float 2;
+#X coords 0 1 55988 -1 100 80 1 0 0;
 #X restore 2430 636 graph;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufR 45999 float 2;
-#X coords 0 1 45999 -1 100 80 1;
+#X array samplebufR 55988 float 2;
+#X coords 0 1 55988 -1 100 80 1;
 #X restore 2548 637 graph;
 #X obj 1040 1090 soundfiler;
 #X obj 1040 1017 openpanel;
@@ -1645,7 +1645,7 @@
 #X msg 1639 1622 size \$1, f 9;
 #X msg 1565 1626 clear, f 7;
 #X msg 1472 1544 decay \$1, f 11;
-#X obj 1823 1619 hsl 128 25 0 1 0 0 empty \$0-wet empty -2 -8 0 10 #4d4d4d #ffffff #000000 0 1;
+#X obj 1800 1616 hsl 128 25 0 1 0 0 empty \$0-wet empty -2 -8 0 10 #4d4d4d #ffffff #000000 0 1;
 #X floatatom 1720 1627 3 0 0 0 - - - 24;
 #X msg 1720 1666 wet \$1, f 8;
 #X obj 1508 1667 s \$0-set, f 11;
@@ -9225,7 +9225,7 @@
 #X obj 1720 1487 else/note 42 10 Menlo empty 0 0 0 0 0 250 250 250 1 1 DECAY;
 #X obj 1786 1531 else/note 42 10 Menlo empty 0 0 0 0 0 250 250 250 1 1 DAMP;
 #X obj 1833 1577 else/note 42 10 Menlo empty 0 0 0 0 0 250 250 250 1 1 SIZE;
-#X obj 1902 1624 else/note 42 10 Menlo empty 0 0 0 0 0 250 250 250 1 1 WET;
+#X obj 1879 1621 else/note 42 10 Menlo empty 0 0 0 0 0 250 250 250 1 1 WET;
 #X obj 3476 1264 cyclone/scale 0 1000 350 600;
 #X obj 559 1444 else/pic 0 ast.gif empty empty 0 0;
 #X obj 3737 816 else/scope~ 32 72 10 3 185 -1.2 1.2 0 0 0 -0.333333 250 250 250 251 124 122 251 124 122 0 empty;
@@ -9369,7 +9369,7 @@
 #X obj 1880 1780 sel 0;
 #X obj 1880 1803 bng 18 250 50 0 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000;
 #X obj 1853 1688 metro 500;
-#X obj 1957 1572 vradio 18 1 0 8 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0;
+#X obj 1957 1572 vradio 18 1 0 8 empty \$0-misteryradio empty 0 -9 0 19 #fcfcfc #000000 #000000 0;
 #X obj 1954 1734 + 1;
 #X obj 1790 1657 key;
 #X floatatom 1791 1685 4 0 0 0 - - - 0;
@@ -9391,8 +9391,10 @@
 #X obj 1280 1666 else/note 146 11 Menlo empty 0 255 255 255 0 0 0 0 1 1 PLAY-RANDOM-FILES;
 #X obj 1279 1452 else/note 143 26 Menlo empty 0 255 255 255 0 0 0 0 1 0 PLAY RANDOM;
 #X obj 1335 1407 else/pic 0 dynag.gif empty empty 0 0;
-#X obj 1021 1640 tgl 100 0 \$0-entropy \$0-offauto empty 17 7 0 10 #000000 #ffffff #373737 0 1;
-#X obj 1022 1746 else/note 101 21 Menlo empty 0 255 255 255 0 0 0 0 1 1 AUTOPLAY;
+#X obj 1021 1628 tgl 100 0 \$0-entropy \$0-offauto empty 17 7 0 10 #000000 #ffffff #373737 0 1;
+#X obj 844 1688 else/note 164 21 Menlo empty 0 255 255 255 0 0 0 0 1 1 AUTOPLAY METRO;
+#X obj 844 1663 hradio 20 1 0 8 \$0-misteryradio empty empty 0 -8 0 10 #191919 #e1e1e1 #e1e1e1 0;
+#X obj 1009 1734 else/note 129 28 Menlo empty 0 255 255 255 0 0 0 0 1 1 AUTOPLAY;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 3 0 2 0;
