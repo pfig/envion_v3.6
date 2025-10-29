@@ -58,14 +58,13 @@ You must download the **entire repository**.
 4. Open `Envion_v5.1_Plugdata.pd` from inside the same folder
 
 envion-main/
-├── Envion_v5.1_Plugdata.pd
-├── core/
-├── libs/
-├── netsound/
-├── utils/
-├── data/
-└── audio/
-
+|-- Envion_v5.1_Plugdata.pd
+|-- core/
+|-- libs/
+|-- netsound/
+|-- utils/
+|-- data/
+`-- audio/
 
 When the patch is moved outside its directory tree, PlugData cannot resolve abstractions or support files —  
 this results in **silent loading**, **missing modules**, or inconsistent behaviour.  
