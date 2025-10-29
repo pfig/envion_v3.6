@@ -59,12 +59,12 @@ You must download the **entire repository**.
 
 envion-main/
 ├── Envion_v5.1_Plugdata.pd
-├── /core
-├── /libs
-├── /netsound
-├── /utils
-├── /data
-└── /audio
+├── core/
+├── libs/
+├── netsound/
+├── utils/
+├── data/
+└── audio/
 
 
 When the patch is moved outside its directory tree, PlugData cannot resolve abstractions or support files —  
