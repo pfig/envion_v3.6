@@ -9328,7 +9328,7 @@
 #X obj 1225 2084 text insert \$0-dirfiles 1e+07;
 #X msg 1179 1783 -1;
 #X obj 1179 1809 text delete \$0-dirfiles;
-#X obj 1148 1607 bng 100 250 50 0 empty empty empty 17 7 0 10 #fb7c7a #ffffff #000000;
+#X obj 1156 1607 bng 100 250 50 0 empty empty empty 17 7 0 10 #fb7c7a #ffffff #000000;
 #X obj 1092 1990 print wav-files;
 #X msg 1091 1849 symbol \$1/*.wav \, symbol \$1/*/;
 #X text 1264 2056 click >;
@@ -9354,7 +9354,7 @@
 #X obj 1402 1716 text size \$0-dirfiles;
 #X obj 1491 1746 text get \$0-dirfiles;
 #X obj 1274 1688 random;
-#X obj 1267 1513 bng 150 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
+#X obj 1277 1513 bng 150 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
 #X obj 1546 1783 print random filename;
 #X obj 1427 1686 r \$0-dn;
 #X obj 1431 1767 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
@@ -9385,12 +9385,12 @@
 #X obj 992 1526 cnv 6 17 17 empty empty empty 44 14 0 24 #e4e4e4 #000000 0;
 #X obj 985 1512 note 31 34 Inter empty 0 55 55 55 0 228 228 228 0 0 ~;
 #X obj 984 1555 else/note 152 10 Menlo empty 0 0 0 0 0 228 228 228 1 0 DeepFolder retrieves forgotten sounds buried in your local archive\\\, bringing them back as living material\\\, ready for articulation.;
-#X obj 1146 1540 else/note 107 19 Menlo empty 0 255 255 255 0 0 0 0 1 0 LOCAL DIRECTORY TO SCAN;
+#X obj 1154 1540 else/note 107 19 Menlo empty 0 255 255 255 0 0 0 0 1 0 LOCAL DIRECTORY TO SCAN;
 #X obj 1853 1830 s \$0-playrnd;
 #X obj 1146 1512 r \$0-playrnd;
-#X obj 1270 1666 else/note 146 11 Menlo empty 0 255 255 255 0 0 0 0 1 1 PLAY-RANDOM-FILES;
-#X obj 1299 1396 else/pic 0 dynag.gif empty empty 0 0;
-#X obj 1269 1452 else/note 143 26 Menlo empty 0 255 255 255 0 0 0 0 1 1 PLAY RANDOM;
+#X obj 1280 1666 else/note 146 11 Menlo empty 0 255 255 255 0 0 0 0 1 1 PLAY-RANDOM-FILES;
+#X obj 1279 1452 else/note 143 26 Menlo empty 0 255 255 255 0 0 0 0 1 0 PLAY RANDOM;
+#X obj 1335 1407 else/pic 0 dynag.gif empty empty 0 0;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 3 0 2 0;
