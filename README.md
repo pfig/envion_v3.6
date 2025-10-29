@@ -41,6 +41,34 @@ Open `Envion_v4.5_Plugdata.pd` in PlugData to play presets, tweak behavior, and 
 
 ---
 
+Before you start — Envion is not a single .pd file
+Envion will not work if you only download the Envion_v5.1_Plugdata.pd file. The patch depends on its full folder structure (libs, core, utils, netsound, data etc.). You must download the entire repository.
+Correct installation (desktop)
+
+Download the full repository ZIP
+https://github.com/aveniridm/envion/archive/refs/heads/main.zip
+Unzip it — this creates a folder such as envion-main/
+Do not move the .pd patch out of this folder
+Open Envion_v5.1_Plugdata.pd from inside that same folder
+envion-main/
+   ├── Envion_v5.1_Plugdata.pd
+   ├── /core
+   ├── /libs
+   ├── /netsound
+   ├── /utils
+   ├── /data
+   └── /audio
+When the patch is outside its directory tree, PlugData cannot resolve its abstractions and support files — resulting in silent loading or missing modules. Keeping the folder intact ensures everything loads correctly.
+Once the dependencies are installed, you can simply turn on the DSP and load the first preset, as shown in the image.
+
+Envion may look complex at first glance, but it’s actually very easy to start making sound. You don’t need to understand every module right away — just activate the DSP and try one of the included presets.
+Start with the main master preset, conveniently located to the right of the DSP activation (the large bang button)
+Local presets on the right
+Network-based presets on the left (fetching sounds directly from the web)
+Ability to load your own samples into any preset
+Take your time to explore the deeper functions later — for now, focus on playing, listening, and discovering how Envion responds. Exploration is part of the philosophy, but sound comes instantly once you start.
+
+
 ## iPadOS/iOS Compatibility
 
 PlugData for iPadOS/iOS includes core libraries.  
