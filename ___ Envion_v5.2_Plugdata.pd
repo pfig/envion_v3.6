@@ -142,12 +142,12 @@
 #X obj 1914 815 s \$0-label;
 #X obj 2097 542 r \$0-label;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufL 9230 float 2;
-#X coords 0 1 9230 -1 100 80 1 0 0;
+#X array samplebufL 32900 float 2;
+#X coords 0 1 32900 -1 100 80 1 0 0;
 #X restore 2430 636 graph;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufR 9230 float 2;
-#X coords 0 1 9230 -1 100 80 1;
+#X array samplebufR 32900 float 2;
+#X coords 0 1 32900 -1 100 80 1;
 #X restore 2548 637 graph;
 #X obj 1040 1090 soundfiler;
 #X obj 1040 1017 openpanel;
@@ -2881,7 +2881,7 @@
 #X text 1437 370 <-- click to open GUI;
 #N canvas 907 181 454 180 message-out 0;
 #X obj 20 20 inlet;
-#X msg 20 44 time-left 1000 \, time-right 1000 \, pingpong 0 \, repeats 1 \, flutter 100 \, feedback 80 \, reverb 0 \, lop-frequency 4000 \, hip-frequency 100 \, hf-damping 80 \, lf-damping 50 \, ssb-amount 0 \, ssb-shift 0 \, distortion-mode 1 \, dry/wet 50 \,;
+#X msg 20 44 time-left 950.548 \, time-right 507.518 \, pingpong 0 \, repeats 1 \, flutter 100 \, feedback 25.4996 \, reverb 25.4996 \, lop-frequency 4000 \, hip-frequency 100 \, hf-damping 80 \, lf-damping 50 \, ssb-amount 0 \, ssb-shift 0 \, distortion-mode 1 \, dry/wet 3.11864 \,;
 #X connect 0 0 1 0;
 #X restore 1426 400 pd message-out;
 #X obj 1326 191 sig~;
@@ -9360,7 +9360,7 @@
 #X obj 1431 1767 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
 #X obj 1341 1716 print;
 #X msg 1341 1690 --------;
-#X obj 1856 1660 tgl 18 0 \$0-automatico empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
+#X obj 1856 1660 tgl 18 0 empty \$0-automatico empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 1880 1734 f;
 #X obj 1918 1734 + 1;
 #X obj 1853 1711 t b b;
@@ -9390,11 +9390,11 @@
 #X obj 1280 1666 else/note 146 11 Menlo empty 0 255 255 255 0 0 0 0 1 1 PLAY-RANDOM-FILES;
 #X obj 1279 1452 else/note 143 26 Menlo empty 0 255 255 255 0 0 0 0 1 0 PLAY RANDOM;
 #X obj 1335 1407 else/pic 0 dynag.gif empty empty 0 0;
-#X obj 1021 1628 tgl 100 0 \$0-entropy \$0-offauto empty 17 7 0 10 #000000 #ffffff #373737 0 1;
+#X obj 1021 1628 tgl 100 0 \$0-automatico empty empty 17 7 0 10 #000000 #ffffff #373737 0 1;
 #X obj 844 1688 else/note 164 21 Menlo empty 0 255 255 255 0 0 0 0 1 1 AUTOPLAY METRO;
 #X obj 844 1663 hradio 20 1 0 8 \$0-misteryradio empty empty 0 -8 0 10 #191919 #e1e1e1 #e1e1e1 0;
 #X obj 1009 1734 else/note 129 28 Menlo empty 0 255 255 255 0 0 0 0 1 1 AUTOPLAY;
-#X obj 1853 1688 metro 300;
+#X obj 1853 1688 metro 150;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 3 0 2 0;
