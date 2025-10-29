@@ -142,12 +142,12 @@
 #X obj 1914 815 s \$0-label;
 #X obj 2097 542 r \$0-label;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufL 133562 float 2;
-#X coords 0 1 133562 -1 100 80 1 0 0;
+#X array samplebufL 46884 float 2;
+#X coords 0 1 46884 -1 100 80 1 0 0;
 #X restore 2430 636 graph;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufR 133562 float 2;
-#X coords 0 1 133562 -1 100 80 1;
+#X array samplebufR 46884 float 2;
+#X coords 0 1 46884 -1 100 80 1;
 #X restore 2548 637 graph;
 #X obj 1040 1090 soundfiler;
 #X obj 1040 1017 openpanel;
