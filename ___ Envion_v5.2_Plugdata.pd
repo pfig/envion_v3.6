@@ -142,12 +142,12 @@
 #X obj 1914 815 s \$0-label;
 #X obj 2097 542 r \$0-label;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufL 2.5578e+06 float 2;
-#X coords 0 1 2.5578e+06 -1 100 80 1 0 0;
+#X array samplebufL 26420 float 2;
+#X coords 0 1 26420 -1 100 80 1 0 0;
 #X restore 2430 636 graph;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array samplebufR 2.5578e+06 float 2;
-#X coords 0 1 2.5578e+06 -1 100 80 1;
+#X array samplebufR 26420 float 2;
+#X coords 0 1 26420 -1 100 80 1;
 #X restore 2548 637 graph;
 #X obj 1040 1090 soundfiler;
 #X obj 1040 1017 openpanel;
@@ -936,7 +936,7 @@
 #X restore 2956 1275 pd backspace;
 #X obj 2956 1359 s \$0-bck;
 #X obj 2956 1334 spigot;
-#X obj 2979 1300 tgl 25 0 empty empty empty 0 -8 0 10 #9c9c9c #fafafa #000000 0 1;
+#X obj 2979 1300 tgl 25 0 empty \$0-act-k empty 0 -8 0 10 #9c9c9c #fafafa #000000 0 1;
 #X obj 2019 525 r \$0-bck;
 #X obj 1559 679 r \$0-bck;
 #X obj 2768 1242 cnv 10 175 30 empty empty BACKSPACE\ TO\ START 6 15 0 15 #000000 #fcfcfc 0;
@@ -1025,7 +1025,7 @@
 #X connect 1 0 2 0;
 #X restore 2583 731 pd wv;
 #X obj 1962 573 cnv 19 94 20 empty empty RANDOM\ LIST 6 10 0 12 #000000 #fcfcfc 0;
-#X obj 2769 1177 tgl 30 0 empty empty empty 0 -8 0 10 #9c9c9c #fafafa #fafafa 0 1;
+#X obj 2769 1177 tgl 30 0 empty \$0-act-k empty 0 -8 0 10 #9c9c9c #fafafa #fafafa 0 1;
 #X obj 2769 1216 s \$0-key_enable;
 #X obj 1744 1173 bng 40 250 50 0 empty empty PANIC 0 -8 0 10 #f8f8f8 #fc5c68 #000000;
 #N canvas 887 623 292 149 pnc 0;
@@ -9438,6 +9438,8 @@
 #X obj 1810 1708 meter2~;
 #X obj 1784 1666 r~ \$0-vul;
 #X obj 1856 1666 r~ \$0-vur;
+#X obj 2004 1760 tgl 100 0 \$0-act-k empty empty 17 7 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
+#X obj 1996 1853 cnv 19 109 65 empty empty KEY 8 32 0 60 #232323 #414141 0;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 3 0 2 0;
