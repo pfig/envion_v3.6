@@ -151,7 +151,7 @@ Built in Pure Data / PlugData (2024–2025)
 © Emiliano Pennisi
 
 <!--UPDATE_TS_START-->
-_Last update: 2026-10-26 21:54 CET_
+_Last update: 2026-10-27 15:05 CET_
 <!--UPDATE_TS_END-->
 =======
 <!--UPDATE_TS_END-->
